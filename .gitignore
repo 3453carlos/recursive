@@ -1,0 +1,7 @@
+
+*.xml
+Operaciones/build/classes/.netbeans_automatic_build
+Operaciones/build/classes/.netbeans_update_resources
+*.properties
+*.mf
+*.class
