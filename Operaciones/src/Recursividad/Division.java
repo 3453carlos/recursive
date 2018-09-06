@@ -53,4 +53,6 @@ public class Division{
     
 }
 //a es el dividiendo
-//b es el divisor
+//b es el divisor//b es el divisor
+
+//no terminado... hay que corregir.
