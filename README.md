@@ -43,7 +43,7 @@ For a function or recursive procedure to work, it must be fulfilled that:
 In order to build any recursive routine taking into account the above, we can use the following method:
 
 -First, get an exact definition of the problem.
-- Next, determine the size of the complete problem to solve. This will determine the values of the
+-Next, determine the size of the complete problem to solve. This will determine the values of the
 parameters in the initial call to the procedure or function.
 -Third, solve the base case in which the problem can be expressed not recursively. This will ensure that point 1 of the test is met
 previous.
