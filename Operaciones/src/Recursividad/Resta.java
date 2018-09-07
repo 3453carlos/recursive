@@ -15,6 +15,7 @@ public class Resta {
    static int aux=0;
     
     public static int res(int a, int b){
+    public static int res(int a, int b, int aux){
         
     
         if(a==b){
@@ -29,6 +30,10 @@ public class Resta {
             }else
                     // houston we got a problmen...
                     return aux+( res(a+1,b-1) );        
+                    aux=aux+res(a,b+1,aux);
+        
+                    return aux;
+                        
     }
     
     public static void main(String[] args) {
@@ -39,6 +44,7 @@ public class Resta {
         if(ans==0){
             
             int a,b;
+            int a,b,aux=0;
             
             do{
                 
@@ -56,6 +62,7 @@ public class Resta {
             
             int resultado;
             resultado= res(a,b);
+            resultado= res(a,b,aux);
            
             JOptionPane.showMessageDialog(null, "la resta de : "+a+" - "+b+" es = "+Math.abs(resultado));           
         }else
