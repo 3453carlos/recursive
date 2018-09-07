@@ -1,4 +1,88 @@
 # operacionesRecursivas
+***** README IN ENGLISH *****
+This repository contains a folder called "operations" which
+It contains some files developed in Java, which correspond to what the title of the repository refers to (recursive operations).
+the path of the files is: OperacionesRecursivas / Operaciones / src / Recursividad /
+
+The files are:
+
+Resta.java		      (subtraction)
+Multiplicaion.java 	(multiplication)
+Division.java 		  (dividing)
+Factorial.java		  (factorial)		
+Raiz.java     		  (square)
+Potencia.java		    (pow)
+  
+These files contain lines of code that will make what alludes their respective names. But with one characteristic, the
+which is that, each mathematical operation will be developed recursively and not iteratively (use of repetitive cycles).
+
+[IF YOU ALREADY KNOW WHAT RESURSIVITY IS, DO NOT READ THIS SECTION]
+
+*** RECURSIVITY *****
+
+
+Recursivity is a programming technique that is used to make a call to a
+function from itself, hence its name. The most used example for its easy understanding is
+the calculation of factorial numbers. The factorial of 0 is, by definition, 1. The factorials of numbers
+greater are calculated by multiplying 1 * 2 * ..., increasing the number of 1 in 1
+until you reach the number for which the factorial is being calculated.
+
+A recursive algorithm is an algorithm that expresses the solution of a problem in terms of
+a call to himself. The call to itself is known as recursive or recurrent call.
+
+***** SOURCE OF THE MEANING OF RESURSIVITY: http://webdelprofesor.ula.ve/nucleotrujillo/jalejandro/Prog2/Unidad3.pdf *****
+
+***** DESIGN OF A RECURSIVE ALGORITHM *****
+
+For a function or recursive procedure to work, it must be fulfilled that:
+
+-It exists a non-recursive output of the procedure or function and works correctly in that case.
+-Every call to the procedure or function refers to a smaller case of it.
+-Facts the entire procedure or function correctly.
+
+In order to build any recursive routine taking into account the above, we can use the following method:
+
+-First, get an exact definition of the problem.
+- Next, determine the size of the complete problem to solve. This will determine the values of the
+parameters in the initial call to the procedure or function.
+-Third, solve the base case in which the problem can be expressed not recursively. This will ensure that point 1 of the test is met
+previous.
+-Finally, correctly solve the general case, in terms of a smaller case of the same problem (a recursive call).
+This will ensure compliance with points 2 and 3 of the test.
+
+When the problem has a formal definition, possibly mathematical, the algorithm derives directly and is easily implementable
+in other cases we must find the most convenient solution.
+
+***** SOURCE OF THE DESIGN OF AN ALGORITHM: https://www.monografias.com/trabajos104/larecursividad/larecursividad.shtml *****
+
+***** COMMENTARY *****
+
+The crucial thing in this type of something is to define the base case, that is. The minimum expression at which the mathematical process is reached.
+For example :
+
+In multiplication, one of the base cases would be when an "A" number is multiplied by 0 or vice versa, a "B" number is multiplied by 0.
+the result of any of those 2 cases would be 0. Another base case of serious multiplication in which an "A" number is multiplied by 1,
+or when a number "B" is multiplied by 1. The result of any of those 2 cases will give the same number "A" or the same number "B".
+Having defined the base cases, we proceed to create a call of the method that we created within the same method, with the difference that
+Within that call, you must specify a decrease argument to reach the base case.
+
+[END OF THE COMMENT]
+[END OF THE SECTION]
+
+IMPORTANT!
+
+THE FILES :
+
+FACTORIAL.JAVA
+POTENCIACION.JAVA
+MULTIPLICACION.JAVA
+
+
+THEY ARE FULLY FUNCTIONAL ... THE OTHER NOT.
+SO THE REST LEAVES THEM INTENTIONALLY IN THE REPOSITORY, FOR THE STUDY OF THESE THEMSELVES.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ***** README IN SPANISH (LEEME EN ESPAÑOL) *****
 Este repositorio contiene una carpeta llamada "operaciones" la cual
 contiene unos archivos desarrollados en java que corresponden a lo que el titulo hace referencia (operaciones recursivas).
@@ -12,7 +96,7 @@ Factorial.java
 Raiz.java
 Potencia.java
 
-Estos archivos contienen lineas de codigo que realizaran a lo que hace alusion sus respectivos nombres. Pero con una caracterisitca,la 
+Estos archivos contienen lineas de codigo que realizaran a lo que hace alusion sus respectivos nombres. Pero con una caracterisitca, la 
 cual es que, cada operacion matematica se desarrollara de forma recursiva y no de forma iterativa (uso de cilos repetitivos).
 
 [ SI YA SABES LO QUE ES LA RECURSIVIDAD, NO LEAS ESTE APARTADO ]
@@ -77,8 +161,3 @@ MULTIPLICACION.JAVA
 
 SON TOTALMENTE FUNCIONALES... LOS DEMAS NO. 
 ASI QUE EL RESTO LOS DEJE INTENCIONALMENTE EN EL REPOSITORIO, PARA EL ESTUDIO DE ESTOS MISMOS.
-
-
-
-
-
