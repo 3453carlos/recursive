@@ -57,7 +57,7 @@ in other cases we must find the most convenient solution.
 
 ***** COMMENTARY *****
 
-The crucial thing in this type of something is to define the base case, that is. The minimum expression at which the mathematical process is reached.
+The crucial thing in this type of algorithm is to define the base case, that is. The minimum expression at which the mathematical process is reached.
 For example :
 
 In multiplication, one of the base cases would be when an "A" number is multiplied by 0 or vice versa, a "B" number is multiplied by 0.
@@ -139,7 +139,7 @@ en otros casos debemos encontrar la solución más conveniente.
 ***** FUENTE DEL DISEÑO DE UN ALGORITMO : https://www.monografias.com/trabajos104/larecursividad/larecursividad.shtml *****
 
 ***** COMENTARIO *****
-Lo crucial en este tipo de algoirtmo, es en definir el caso base, es decir. La expresion minima a la que se llega el proceso matematico. 
+Lo crucial en este tipo de algoritmo, es en definir el caso base, es decir. La expresion minima a la que se llega el proceso matematico. 
 Por ejemplo : 
 En la multiplicacion, uno de los casos bases seria cuando un numero "A" se multiplica por 0 o viceversa, un numero "B" se multiplica por 0. 
 el resultado de cualquiera de esos 2 casos seria 0. Otro caso base de la multiplicacion seria en el que un numero "A" se multiplica por 1,
