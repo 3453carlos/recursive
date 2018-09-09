@@ -14,7 +14,7 @@ public class Resta {
     
    static int aux=0;
     
-    public static int res(int a, int b){
+    
     public static int res(int a, int b, int aux){
         
     
@@ -43,7 +43,6 @@ public class Resta {
                 + "calcular la multiplicacion de 2 numeros dados","Multiplicacion recursiva", 0);
         if(ans==0){
             
-            int a,b;
             int a,b,aux=0;
             
             do{
@@ -60,8 +59,7 @@ public class Resta {
             b= Integer.parseInt(in2);
             }while(a<b);    
             
-            int resultado;
-            resultado= res(a,b);
+            int resultado;          
             resultado= res(a,b,aux);
            
             JOptionPane.showMessageDialog(null, "la resta de : "+a+" - "+b+" es = "+Math.abs(resultado));           
